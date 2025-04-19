@@ -1,0 +1,81 @@
+.service-management {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .service-management h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .service-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .service-table th,
+  .service-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .service-table th {
+    background-color: #f5f5f5;
+  }
+  
+  .service-table tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  .service-actions button {
+    margin-right: 8px;
+  }
+  
+  .add-service-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .add-service-form input,
+  .add-service-form textarea {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .add-service-form button {
+    align-self: flex-start;
+    padding: 8px 16px;
+    font-weight: bold;
+    background-color: #2f80ed;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-service-form button:hover {
+    background-color: #1c60b3;
+  }
+/* 
+  .toggle-form-btn {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background-color: #2d9cdb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .toggle-form-btn:hover {
+    background-color: #1c6fab;
+  }
+*/

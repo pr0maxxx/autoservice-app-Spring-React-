@@ -1,0 +1,38 @@
+.admin-users {
+    padding: 20px;
+  }
+  
+  .user-card {
+    background: #f8f8f8;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .admin-table th,
+  .admin-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .admin-table th {
+    background-color: #f3f3f3;
+    text-align: left;
+  }
+  
+  .admin-table tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  .admin-table select {
+    padding: 4px;
+    font-size: 14px;
+  }
+  

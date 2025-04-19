@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2563eb; /* синий */
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    color: #374151; /* серый */
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s;
+  }
+  
+  .nav-link:hover {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .logout-button {
+    background: none;
+    color: #bd3131;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .logout-button:hover {
+    text-decoration: none;
+    background: #bd3131;
+    color: #ffffff;
+  }
+  

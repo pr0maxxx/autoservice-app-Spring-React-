@@ -1,0 +1,56 @@
+.aboutus-container {
+    background-color: #f3f4f6; /* Tailwind bg-gray-100 */
+    min-height: 100vh;
+    padding: 3rem 1rem;
+  }
+  
+  .aboutus-content {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 1rem; /* Tailwind rounded-2xl */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+  }
+  
+  .aboutus-title {
+    font-size: 2.5rem; /* text-4xl */
+    font-weight: bold;
+    color: #2563eb; /* Tailwind text-blue-600 */
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .aboutus-paragraph {
+    font-size: 1.125rem; /* text-lg */
+    color: #374151; /* Tailwind text-gray-700 */
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    font-weight: 600;
+  }
+  
+  .aboutus-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1.5rem;
+    color: #4b5563; /* Tailwind text-gray-600 */
+    text-align: center;
+  }
+  
+  @media (min-width: 640px) {
+    .aboutus-stats {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .stat-title {
+    font-size: 1.25rem; /* text-xl */
+    font-weight: 600;
+    color: #1f2937; /* Tailwind text-gray-800 */
+  }
+  

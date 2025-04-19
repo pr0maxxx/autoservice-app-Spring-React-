@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/build/
+
+# Java
+autoservice/target/
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# Системный мусор
+.DS_Store
+Thumbs.db
+*.swp
+
+# Документы (если не хочешь заливать их)
+*.doc
+*.docx
+*.pdf
