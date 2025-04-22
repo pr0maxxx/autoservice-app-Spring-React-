@@ -15,7 +15,7 @@
 
 ### 1. Скачивание архива с проектом
 
-1. Скачайте архив с проектом с [GitHub-репозитория](https://github.com/your-repo/autoservice).
+1. Скачайте архив с проектом с [GitHub-репозитория]([https://github.com/your-repo/autoservice](https://github.com/pr0maxxx/autoservice-app-Spring-React-)).
 2. Разархивируйте его в удобное место.
 
 ### 2. Запуск с использованием `docker-compose`
