@@ -29,6 +29,7 @@ public class OrderService {
     private final OrderRepository orderRepository;
     private final CarRepository carRepository;
     private final ServiceItemRepository serviceItemRepository;
+    private final NotificationService notificationService;
 
 
     public Order createOrder(OrderRequestDTO dto, User user) {
@@ -76,6 +77,12 @@ public class OrderService {
                 .orElseThrow(() -> new RuntimeException("Order not found"));
 
         order.setStatus(status);
+        notificationService.sendStatusChangeEmail(
+                order.getUser().getUsername(),
+                order.getService().getName(),
+                order.getAppointmentTime(),
+                status
+        );
 
         if (status == OrderStatus.COMPLETED) {
             order.complete();
